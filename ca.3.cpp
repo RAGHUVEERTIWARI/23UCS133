@@ -51,7 +51,7 @@ void display(int arr[],int size)
 int main()
 {
     cout<<"Merge Sort"<<endl;
-    int array[] = {12,34,12,23,76,78,89,0,67,54,97,93,5,23,52,54,76};
+    int array[] = {12,38,13,24,78,77,83,0,57,54,7,9,5,3,55,51,77};
     display(array,(sizeof(array)/sizeof(array[0])));
 
     mergeSort(array,0,((sizeof(array)/sizeof(array[0]))-1));
